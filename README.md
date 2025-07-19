@@ -1,36 +1,61 @@
-<img src="https://raw.githubusercontent.com/Tastyep/TaskManager/master/assets/task_manager_logo.png">
-<h1> TASK MANAGER USING DATA STRUCTURES </h1>
+<img src="https://raw.githubusercontent.com/Tastyep/TaskManager/master/assets/task_manager_logo.png" />
 
-### This is our Project for IT205 Course of our College where we as a group have tried developing a task manager program using C++ and appropriate data structures learnt in the course
+# TASK MANAGER USING DATA STRUCTURES
 
-## Brief Introduction
-Our Task Manager Application is designed to speed up your task management process, enhance productivity, and offers greater flexibility with the ability to export tasks to Excel. Whether you’re managing multiple work projects or maintaining a To-Do list, our Task Manager Application is here to simplify your life.
+This is our project for the **IT205** course at our college. As a group, we have developed a Task Manager application using **C++** and appropriate data structures learned during the course.
 
 ---
 
-## Group Members
+## 📌 Brief Introduction
 
-## 1. Tirth Gandhi
-## 2. Sheel Shah
-## 3. Nakul Patel
-## 4. Bhaumik Luhar
+Our Task Manager Application is designed to enhance productivity and streamline task management. Whether you're handling multiple work projects or maintaining a personal To-Do list, this tool provides a convenient and flexible solution. It even supports task export for use in Excel.
 
 ---
 
-## Function List
+## 👨‍💻 Group Members
 
-- ## *Add Task:*
-  Users can easily add new tasks. Each task entry allows for a detailed description to ensure you capture all the necessary information for successful completion.
-- ## *Complete Task:*
-  As tasks are completed, users can mark them as done. This provides a sense of accomplishment and helps track progress.
-- ## *Display Pending Tasks:*
-  The application provides a comprehensive view of all pending tasks. This helps users prioritize their work and manage their time effectively.
-- ## *Show Missing Tasks:*
-  Users can also view the tasks that they might have missed. They can also complete these tasks with a label "Late Submission".
-- ## *Remove Task:*
-  Tasks can be deleted with a simple click, allowing users to maintain a clutter-free task list.
-- ## *Task Advisor:*
-  Users can hereby use our AI to get a suggestion of which task he/she should first do based on his/her upcoming deadlines.
-- ## *Save Tasks To Excel File:*
-  Users can now save their tasks in an Excel file. This feature allows for advanced data manipulation, sharing, and offline access.
+1. Tirth Gandhi  
+2. Sheel Shah  
+3. Nakul Patel  
+4. Bhaumik Luhar  
 
+---
+
+## 🛠️ Feature List
+
+- ### ✅ Add Task  
+  Easily add new tasks with a name, description, deadline, and priority.
+
+- ### ✅ Complete Task  
+  Mark tasks as "Done" or "Late Done" depending on whether they're completed before or after the deadline.
+
+- ### ✅ Display Pending Tasks  
+  View all your current tasks along with their status and priority.
+
+- ### ✅ Show Missed Tasks  
+  View tasks that have passed their deadline but are not yet completed.
+
+- ### ✅ Remove Task *(To be implemented)*  
+  Remove unnecessary or canceled tasks from your task list.
+
+- ### ✅ Task Advisor  
+  The system will suggest which task to do first based on upcoming deadlines.
+
+- ### ✅ Save to Excel-Compatible File  
+  Tasks are saved to a CSV file, allowing for export and manipulation in Excel or Google Sheets.
+
+---
+
+## 📎 Notes
+
+- Task deadlines are input in `hh:mm` format.
+- Tasks are prioritized based on the priority number (higher value = higher priority).
+- The system is file-based and does not use a database.
+
+---
+
+## 🚀 Future Improvements
+
+- Add date to deadlines.
+- GUI interface using Qt or GTK.
+- Better task sorting UI.
